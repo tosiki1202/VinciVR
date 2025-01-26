@@ -57,6 +57,7 @@ public class SwitchObject : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Alpha9))
         {
+            Debug.Log("Items Reposition");
             Globe.transform.position = p1;
             Globe.transform.rotation = q1;
             Pot.transform.position = p2;
@@ -130,6 +131,7 @@ public class SwitchObject : MonoBehaviour
 
     void InitObjects()
     {
+        Debug.Log("Objects reset");
         Globe.SetActive(false);
         Pot.SetActive(false);
         Scarpa.SetActive(false);
