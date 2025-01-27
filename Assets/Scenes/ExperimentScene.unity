@@ -1008,7 +1008,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -1563,7 +1563,7 @@ PrefabInstance:
     - target: {fileID: 4987106911417147414, guid: cce55e94be1d4564f885142c6ba58ed8,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5059217171689288118, guid: cce55e94be1d4564f885142c6ba58ed8,
         type: 3}
@@ -2415,7 +2415,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -3557,6 +3557,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2429146838225186546, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_StartingGroupMembers.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2728902658200667494, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_Enabled
@@ -3566,6 +3571,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3711799367079663623, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3711799367079663623, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_TeleportInteractor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractors.Array.data[0].m_Interactor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractors.Array.data[1].m_Interactor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractors.Array.data[2].m_Interactor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4090221840526957868, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractors.Array.data[3].m_Interactor
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 4134505312059479865, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -3617,6 +3652,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4564216430282282028, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_RayInteractor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564216430282282028, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_TeleportInteractor
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710497675663264238, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5263222900878983396, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_AimTargetObject
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5481383991568480619, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_IsActive
@@ -3637,10 +3692,20 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6962680226186472951, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_AttachTransform
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7169631891049266947, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7212809983350181570, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_AimTargetObject
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -3672,6 +3737,11 @@ PrefabInstance:
       propertyPath: m_RequestedTrackingOriginMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8074195219289459696, guid: 895f6f3c2d334633b5800312285058d2,
+        type: 3}
+      propertyPath: m_StartingGroupMembers.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9014170783705847993, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_ModelPrefab
@@ -3690,7 +3760,7 @@ PrefabInstance:
     - target: {fileID: 9014170783728641054, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8
+      value: 1.661
       objectReference: {fileID: 0}
     - target: {fileID: 9014170783728641054, guid: 895f6f3c2d334633b5800312285058d2,
         type: 3}
@@ -4603,7 +4673,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -6058,7 +6128,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -7236,7 +7306,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -10531,7 +10601,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -11453,7 +11523,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7be2eb7234386384d92169497f59e2d9,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1231731524}
+      addedObject: {fileID: 1231731527}
   m_SourcePrefab: {fileID: 100100000, guid: 7be2eb7234386384d92169497f59e2d9, type: 3}
 --- !u!1 &1231731501 stripped
 GameObject:
@@ -11593,20 +11663,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1231731500}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1231731524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231731501}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b935e643dfecebc408a2930e4106617c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Camera: {fileID: 999259911}
-  Avator: {fileID: 1231731501}
 --- !u!114 &1231731525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11650,7 +11706,7 @@ MonoBehaviour:
     root: {fileID: 0}
     LOD: 0
     scale: 1
-    plantFeet: 1
+    plantFeet: 0
     spine:
       bones: []
       headTarget: {fileID: 1926799163}
@@ -11669,9 +11725,9 @@ MonoBehaviour:
       chestGoalWeight: 0
       chestClampWeight: 0.5
       rotateChestByHands: 1
-      bodyPosStiffness: 0.225
+      bodyPosStiffness: 0.35
       bodyRotStiffness: 0.1
-      neckStiffness: 0.2
+      neckStiffness: 0.116
       moveBodyBackWhenCrouching: 0.5
       maxRootAngle: 25
       rootHeadingOffset: 0
@@ -11772,7 +11828,7 @@ MonoBehaviour:
       maxRootAngleStanding: 90
       stepLengthMlp: 1
       footDistance: 0.15
-      stepThreshold: 0.3
+      stepThreshold: 0.27
       angleThreshold: 60
       comAngleMlp: 1
       maxVelocity: 0.4
@@ -11863,6 +11919,20 @@ MonoBehaviour:
       onRightFootstep:
         m_PersistentCalls:
           m_Calls: []
+--- !u!114 &1231731527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231731501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4791565d76f4de34eb65934c7a2d5930, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 999259911}
+  Avator: {fileID: 1231731501}
 --- !u!1001 &1239540651
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12435,7 +12505,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -14535,7 +14605,7 @@ Transform:
   m_GameObject: {fileID: 1499328279}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.2}
+  m_LocalPosition: {x: 0, y: 0.037, z: -0.263}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14759,7 +14829,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 0}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
@@ -18543,7 +18613,7 @@ MonoBehaviour:
     root: {fileID: 0}
     LOD: 0
     scale: 1
-    plantFeet: 1
+    plantFeet: 0
     spine:
       bones: []
       headTarget: {fileID: 1499328280}
@@ -18560,9 +18630,9 @@ MonoBehaviour:
       maintainPelvisPosition: 0.2
       chestGoal: {fileID: 0}
       chestGoalWeight: 0
-      chestClampWeight: 0.5
+      chestClampWeight: 0.507
       rotateChestByHands: 1
-      bodyPosStiffness: 0.225
+      bodyPosStiffness: 0.35
       bodyRotStiffness: 0.1
       neckStiffness: 0.106
       moveBodyBackWhenCrouching: 0.5
@@ -18665,7 +18735,7 @@ MonoBehaviour:
       maxRootAngleStanding: 90
       stepLengthMlp: 1
       footDistance: 0.15
-      stepThreshold: 0.3
+      stepThreshold: 0.27
       angleThreshold: 60
       comAngleMlp: 1
       maxVelocity: 0.4
@@ -18934,7 +19004,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ad72db07c19cb5b4ca06710e677293d4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18947,7 +19017,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ad72db07c19cb5b4ca06710e677293d4,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2057745054}
+      addedObject: {fileID: 2057745057}
   m_SourcePrefab: {fileID: 100100000, guid: ad72db07c19cb5b4ca06710e677293d4, type: 3}
 --- !u!1 &2057745031 stripped
 GameObject:
@@ -19087,20 +19157,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2057745030}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2057745054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2057745031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b935e643dfecebc408a2930e4106617c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Camera: {fileID: 999259911}
-  Avator: {fileID: 2057745031}
 --- !u!114 &2057745055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19144,7 +19200,7 @@ MonoBehaviour:
     root: {fileID: 0}
     LOD: 0
     scale: 1
-    plantFeet: 1
+    plantFeet: 0
     spine:
       bones: []
       headTarget: {fileID: 1926799163}
@@ -19163,9 +19219,9 @@ MonoBehaviour:
       chestGoalWeight: 0
       chestClampWeight: 0.5
       rotateChestByHands: 1
-      bodyPosStiffness: 0.225
+      bodyPosStiffness: 0.34
       bodyRotStiffness: 0.1
-      neckStiffness: 0.2
+      neckStiffness: 0.128
       moveBodyBackWhenCrouching: 0.5
       maxRootAngle: 25
       rootHeadingOffset: 0
@@ -19265,8 +19321,8 @@ MonoBehaviour:
       maxRootAngleMoving: 10
       maxRootAngleStanding: 90
       stepLengthMlp: 1
-      footDistance: 0.15
-      stepThreshold: 0.3
+      footDistance: 0.12
+      stepThreshold: 0.27
       angleThreshold: 60
       comAngleMlp: 1
       maxVelocity: 0.4
@@ -19357,6 +19413,20 @@ MonoBehaviour:
       onRightFootstep:
         m_PersistentCalls:
           m_Calls: []
+--- !u!114 &2057745057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057745031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 706298c8f28c25746ae07759250b5619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Camera: {fileID: 999259911}
+  Avator: {fileID: 2057745031}
 --- !u!4 &2074810620 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5825843494815329794, guid: f27745cf1181bd3448644af0f3dec7f4,
