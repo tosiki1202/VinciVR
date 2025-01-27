@@ -55,25 +55,20 @@ public class SwitchObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Globe.transform.position.y < -1 ||
+            Pot.transform.position.y < -1 ||
+            Scarpa.transform.position.y < -1 ||
+            Wheel.transform.position.y < -1 ||
+            Key.transform.position.y < -1 ||
+            Newspaper.transform.position.y < -1 ||
+            Book.transform.position.y < -1 ||
+            Hammer.transform.position.y < -1)
+        {
+            RePosition();
+        }
         if (Input.GetKeyDown(KeyCode.Alpha9))
         {
-            Debug.Log("Items Reposition");
-            Globe.transform.position = p1;
-            Globe.transform.rotation = q1;
-            Pot.transform.position = p2;
-            Pot.transform.rotation = q2;
-            Scarpa.transform.position = p3;
-            Scarpa.transform.rotation = q3;
-            Wheel.transform.position = p4;
-            Wheel.transform.rotation = q4;
-            Key.transform.position = p5;
-            Key.transform.rotation = q5;
-            Newspaper.transform.position = p6;
-            Newspaper.transform.rotation = q6;
-            Book.transform.position = p7;
-            Book.transform.rotation = q7;
-            Hammer.transform.position = p8;
-            Hammer.transform.rotation = q8;
+            RePosition();
         }
         if (Input.GetKeyDown(KeyCode.Alpha0))
         {
@@ -140,5 +135,26 @@ public class SwitchObject : MonoBehaviour
         Newspaper.SetActive(false);
         Book.SetActive(false);
         Hammer.SetActive(false);
+    }
+
+    void RePosition()
+    {
+        Debug.Log("Items Reposition");
+        Globe.transform.position = p1;
+        Globe.transform.rotation = q1;
+        Pot.transform.position = p2;
+        Pot.transform.rotation = q2;
+        Scarpa.transform.position = p3;
+        Scarpa.transform.rotation = q3;
+        Wheel.transform.position = p4;
+        Wheel.transform.rotation = q4;
+        Key.transform.position = p5;
+        Key.transform.rotation = q5;
+        Newspaper.transform.position = p6;
+        Newspaper.transform.rotation = q6;
+        Book.transform.position = p7;
+        Book.transform.rotation = q7;
+        Hammer.transform.position = p8;
+        Hammer.transform.rotation = q8;
     }
 }
